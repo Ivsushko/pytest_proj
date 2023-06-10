@@ -15,7 +15,7 @@ def get(array, index, default=None):
         return default
 
     return array[index]
-
+print(get([], -1, "test"))
 
 def my_slice(coll, start=0, end=None):
     """
